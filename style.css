@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: calibri;
+    font-family: poppins;
     overflow-x: hidden;
     /* overflow-y:visible; */
 
@@ -19,10 +19,11 @@ body::-webkit-scrollbar{
 .navbar{
     /* background-color: aqua; */
     height: 5vw;
-    font-family: calibri;
+    font-family: poppins;
     font-size: 2vw;
     display: flex;
     align-items: center;
+    padding: 3% 5%;
     /* border-bottom: 1px solid black; */
 
 }
@@ -41,16 +42,16 @@ body::-webkit-scrollbar{
 }
 
 .scrollbar h3{
-    font-size: 2vw;
+    font-size: 3vh;
     font-weight: 900;
     justify-content: space-between;
 }
 
 button{
-    font-size: 1.5vw;
+    font-size: 2.5vh;
     /* font-weight: 600; */
     padding: 0.5vw 1.8vw;
-    font-family: calibri;
+    font-family: poppins;
     border: none;
     color: white;
     background-color: rgb(56,90,100);
@@ -73,16 +74,16 @@ section{
     display: flex;
     flex-wrap: wrap;
     height: 95vh;
-
+    padding: 2% 5%;
 }
 
 
 .about{
     margin-left: 5vw;
-    font-family: calibri;
+    font-family: poppins;
     font-weight: 1000;
-    font-size: 5vw;
-    width: 50vw;
+    font-size: 6vh;
+    width: 30vw;
 }
 
 #span2{
@@ -107,10 +108,10 @@ img{
 
 
 .shortIntro{
-    width: 50vw;
+    width: 30vw;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.5vw;
+    font-size: 2.5vh;
     font-weight: 100;
 }
 
@@ -159,10 +160,10 @@ footer{
         width: 100%;
     }
 
-    #span1{
-        /* line-height: 0.9; */
-        /* row-gap: 20vh; */
-    } 
+    /* #span1{
+        /* line-height: 0.9; 
+        /* row-gap: 20vh; 
+    }  */
 
     .shortIntro{
         /* line-height: 80vh; */
